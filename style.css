@@ -1,1 +1,148 @@
-/* Add you CSS here */
+/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #08111f;
+  color: #e6f1ff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0b172a;
+  padding: 20px 8%;
+  border-bottom: 1px solid #1e3a5f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #60a5fa;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 8%;
+  background: linear-gradient(135deg, #08111f, #0f2747);
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+.tagline {
+  color: #60a5fa;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #cbd5e1;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #60a5fa;
+  color: #60a5fa;
+}
+
+.section {
+  padding: 70px 8%;
+}
+
+.section h2 {
+  font-size: 32px;
+  color: #93c5fd;
+  margin-bottom: 25px;
+}
+
+.section p {
+  max-width: 800px;
+  color: #cbd5e1;
+}
+
+.skills-grid,
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.skill-card,
+.project-card {
+  background-color: #0f1e33;
+  border: 1px solid #1e3a5f;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.skill-card {
+  text-align: center;
+  color: #dbeafe;
+  font-weight: bold;
+}
+
+.project-card h3 {
+  color: #60a5fa;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #cbd5e1;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #0b172a;
+  color: #94a3b8;
+  border-top: 1px solid #1e3a5f;
+}
